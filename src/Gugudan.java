@@ -5,11 +5,14 @@ public class Gugudan {
 		
 		int[] result = new int[9]; //배열 생성
 		
-		for(int i=0; i<9; i++)
+		for(int i=0; i<9; i++) {
 			result[i] = 2*(i+1);
-		
-		for(int i=0; i<result.length; i++)
 			System.out.println("2*"+(i+1)+"="+result[i]);
+		}
+			
+		
+		
+
 		
 		
 		
